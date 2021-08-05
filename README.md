@@ -1,8 +1,10 @@
 # LOTL_scanner
 A bash scanner leveraging /dev/tcp (available by default in any UNIX/Linux systems) to scan a list of IP addresses.
 
-The script is a very rudimentary scanner, based on the LOTL (living off the land) concept, leveraging native functionalities in the target system 
-without requiring any additional tools other than /bin/sh.
+LOTL_scanner is a very rudimentary scanner, based on the LOTL (living off the land) concept, that is about leveraging native functionalities in the target system 
+without requiring any additional tools.
+
+In fact, the only needed tool for it is /bin/sh, already included in *nix.
 
 LOTL_scanner was developed from a script included in the Penetration Testing with Kali Linux (PWK) PDF, originally designed for use with a single IP.
 
